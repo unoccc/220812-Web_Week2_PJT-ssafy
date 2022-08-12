@@ -1,0 +1,60 @@
+body{
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main-container{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.timer-wrapper{
+  color: white;
+}
+.timer{
+  text-shadow: 3px 3px black;
+  font-weight: bold;
+  font-size: 10rem;
+}
+.timer-content{
+  font-weight: bold;
+  text-shadow: 3px 3px black;
+  font-size: 2.5rem;
+  text-align: center;
+}
+.memo-input-wrapper{
+  margin: 20px;
+}
+.memo-wrapper{
+  text-shadow: 2px 2px black;
+  color: white;
+  text-align: center;
+}
+.memo{
+  font-size: 2rem;
+}
+
+.modal-button{
+  position: fixed;
+  right: 40px;
+  top: 40px;
+  background: url("./icons/001-cloud.png");
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+}
+
+.card-title{
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+}
+
+.card-header{
+  font-size: 80%;
+}
+
+.card-text{
+  text-align: center;
+}
